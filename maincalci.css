@@ -1,0 +1,41 @@
+body
+{
+	background-image:url("https://i.stack.imgur.com/jGlzr.png") ;
+}
+h1{
+	text-align: center;
+	font-family: serif;
+	padding: 20px;
+	text-shadow: 1px 1px 2px darkred, 0 0 1em skyblue, 0 0 0.2em darkgreen;
+    font-size: 40px;
+    color: white;
+}
+.calculator
+{
+	padding: 15px;
+	height: 300px;
+	width: 350px;
+	margin: auto;
+	background: linear-gradient(#097947,#00d4ff);
+	border-radius: 1em;
+}
+
+input[type='button']
+{
+	width: 100%;
+	height: 100%;
+	border-width: 5px;
+	border-color:yellow;
+	border-radius: 8px;
+	font-size: xx-large;
+}
+input[type="text"]
+{
+    width: 95%;
+	height: 90%;	
+	border-width: 5px;
+	background-color:aqua;
+	border-color:yellow;
+	border-radius: 8px;
+	font-size: xx-large;
+}
